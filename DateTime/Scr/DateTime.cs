@@ -8,7 +8,6 @@ namespace JC.DateTime
     public class DateTime
     {
 #region Params
-
         [SerializeField]
         private bool _EnableSystemDateTime;
         public  bool EnableSystemDateTime
@@ -20,7 +19,6 @@ namespace JC.DateTime
         [SerializeField]
         private bool _EnableTimeProgression = false;
         public bool EnableTimeProgression => _EnableTimeProgression;
-
 
         [SerializeField]
         private float _DayInMinutes = 15.0f;
